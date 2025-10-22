@@ -1,5 +1,5 @@
 function Home() {
-  return <div>Eu amo o Bolsonaro</div>;
+  return <div>Eu amo o Lulinha</div>;
 }
 
 export default Home;
