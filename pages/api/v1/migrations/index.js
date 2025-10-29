@@ -39,6 +39,6 @@ export default async function migrations(request, response) {
   } catch (error) {
     return response.status(404).json({ error: error.message });
   } finally {
-    await dbClient.end();
+    await dbClient?.end();
   }
 }

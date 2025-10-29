@@ -21,7 +21,6 @@ export default async function status(request, response) {
 
   const databaseCurrentConnectionsValue =
     databaseCurrentConnectionsResult.rows[0].count;
-
   response.status(200).json({
     updatedAt: updatedAt,
     dependencies: {
